@@ -1051,6 +1051,8 @@
     border-radius:100%;
     border:1px solid var(--border3);
     padding:5px;
+    background-size: cover;
+    background-position: center;
     position:relative;
 }
 
@@ -1115,4 +1117,217 @@
     font-weight: 900;
     border-bottom: 1px solid var(--accent);
     color: black;
+}
+
+
+/* LETTER 1 */
+
+.sp-letter1 {
+    width: 350px;
+    margin: auto;
+    padding: 25px 20px 25px 20px;
+    border: 1px solid var(--border3);
+}
+
+.sp-letter1-to {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    position:relative;
+    left:-50px;
+    text-align:left;
+    text-transform: lowercase;
+    color: #313131;
+}
+
+.sp-letter1-from {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    position:relative;
+    left:50px;
+    text-align:right;
+    text-transform: lowercase;
+    color: #313131;
+}
+
+.sp-letter1-body {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 40px 40px;
+    white-space: pre-line;
+
+}
+
+
+/* LETTER 2 */
+
+.sp-letter2 {
+    width: 400px;
+    margin: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid var(--border3);
+}
+
+.sp-letter2-header {
+    padding:40px;
+}
+
+.sp-letter2-header i {
+    font-size: 10px;
+    font-family: 'Cousine';
+    border-bottom: 1px solid var(--accent);
+    color: #717171;
+    padding-bottom: 2px;
+    text-transform:uppercase;
+    width:fit-content;
+    display:block;
+}
+
+.sp-letter2-header b {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align:right;
+    text-transform: lowercase;
+    color: #313131;
+    float:right;
+    display:block;
+}
+
+.sp-letter2-divider {
+    width:100%;
+    border-bottom: 1px solid var(--border3);
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.sp-letter2-body {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 40px 40px;
+    white-space: pre-line;
+}
+
+.sp-letter2-from {
+    padding:40px;
+    padding-bottom:100px;
+}
+
+.sp-letter2-from i {
+    font-size: 10px;
+    font-family: 'Cousine';
+    border-bottom: 1px solid var(--accent);
+    color: #717171;
+    padding-bottom: 2px;
+    text-transform:uppercase;
+    width:fit-content;
+    display:block;
+    float:right;
+}
+
+.sp-letter2-from b {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    width:100%;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align:right;
+    padding-top:10px;
+    text-transform: lowercase;
+    color: #313131;
+    float:right;
+    display:block;
+}
+
+
+/* LETTER 3 */
+
+.sp-letter3 {
+    width: 350px;
+    margin: auto;
+    margin-top:100px;
+    padding: 25px 20px 25px 20px;
+    border: 1px solid var(--border3);
+}
+
+.sp-letter3-to {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    position:relative;
+    left:-50px;
+    text-align:left;
+    text-transform: lowercase;
+    color: #313131;
+}
+
+.sp-letter3-from {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    position:relative;
+    left:50px;
+    text-align:right;
+    text-transform: lowercase;
+    color: #313131;
+}
+
+.sp-letter3-body {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 40px 40px;
+    white-space: pre-line;
+
+}
+
+.sp-letter3-image {
+    width:150px;
+    height:150px;
+    position:relative;
+    margin-top:50px;
+    left:-100px;
+    top:-20px;
+    float:right;
+}
+
+.sp-letter3-image img {
+    width:150px;
+    height:150px;
+    border-radius:100%;
+    padding:5px;
+    border:1px solid var(--border3);
+    background-size: cover;
+    background-position: center;
 }

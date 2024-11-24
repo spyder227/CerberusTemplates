@@ -1,0 +1,544 @@
+:root {
+    --border3: rgba(113, 113, 113, 0.2);
+    --accent: #4d2424;    /* temporary */
+}
+
+
+/* THREAD TEMPLATE 1 */
+
+.sp-thread1 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    padding:20px;
+}
+
+.sp-thread1 img {
+    width:80px;
+    height:80px;
+    margin:0;
+    filter:grayscale(70%);
+    float:left;
+    margin-right:20px;
+    border: 1px solid var(--border3);
+    padding:4px;
+}
+
+.sp-thread1-text {
+    color: #3a3a3a;
+    width: 555px;
+    font-family: 'Inter';
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 180%;
+    border: 1px solid var(--border3);
+    padding: 50px;
+    text-align:justify;
+    margin:10px;
+    padding-bottom:100px;
+}
+
+.sp-thread1-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-thread1-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}
+
+.sp-thread1-writtenfor {
+    width:fit-content;
+    text-transform:uppercase;
+    line-height:130%;
+    font-size: 8px;
+    font-family: 'Cousine';
+    float:right;
+    padding-top:50px;
+    border-bottom: 1px solid var(--accent);
+    color: #717171;
+    padding-bottom: 2px;
+}
+
+.sp-thread1-tag {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #272727;
+    font-family: essonnes-display;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 900;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top: 10px;
+    float: right;
+}
+
+.sp-thread1-tag a {
+    color:black;
+}
+
+
+/* THREAD TEMPLATE 2 */
+
+.sp-thread2 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    padding:20px;
+}
+
+.sp-thread2-text {
+    color: #3a3a3a;
+    width: 555px;
+    font-family: 'Inter';
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 180%;
+    border: 1px solid var(--border3);
+    padding: 50px;
+    text-align:justify;
+    margin:10px;
+    padding-bottom:70px;
+}
+
+.sp-thread2-text img {
+    width:120px;
+    height:120px;
+    margin:0;
+    float:right;
+    border-radius:100%;
+    filter:grayscale(70%);
+    margin-left:20px;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sp-thread2-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-thread2-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}
+
+.sp-thread2-tagbox {
+    width:100%;
+    text-align:right;
+    padding-top:50px;
+}
+
+.sp-thread2-writtenfor {
+    width:fit-content;
+    text-transform:uppercase;
+    line-height:130%;
+    font-size: 8px;
+    text-align:right;
+    float:right;
+    font-family: 'Cousine';
+    border-bottom: 1px solid var(--accent);
+    color: #717171;
+    padding-bottom: 2px;
+}
+
+.sp-thread2-tag {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #272727;
+    font-family: essonnes-display;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 900;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top: 10px;
+    float: right;
+}
+
+.sp-thread2-tag a {
+    color:black;
+}
+
+
+/* THREAD TEMPLATE 2 */
+
+.sp-thread3 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    padding:20px;
+}
+
+.sp-thread3-text {
+    color: #3a3a3a;
+    width: 555px;
+    font-family: 'Inter';
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 180%;
+    border: 1px solid var(--border3);
+    padding: 50px;
+    text-align:justify;
+    margin:10px;
+    padding-bottom:70px;
+}
+
+.sp-thread3-icon {
+    width:120px;
+    height:120px;
+    border-radius:100%;
+    padding:4px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top:25px;
+    border: 5px solid var(--bg1);
+    object-fit: cover;
+    object-position: center;
+}
+
+.sp-thread3-icon img {
+    width:120px;
+    height:120px;
+    margin:0;
+    border-radius:100%;
+    filter:grayscale(70%);
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sp-thread3-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-thread3-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}
+
+.sp-thread3-tagbox {
+    width:100%;
+    text-align:right;
+    padding-top:50px;
+}
+
+.sp-thread3-writtenfor {
+    width:fit-content;
+    text-transform:uppercase;
+    line-height:130%;
+    font-size: 8px;
+    text-align:right;
+    float:right;
+    font-family: 'Cousine';
+    border-bottom: 1px solid var(--accent);
+    color: #717171;
+    padding-bottom: 2px;
+}
+
+.sp-thread3-tag {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #272727;
+    font-family: essonnes-display;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 900;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top: 10px;
+    float: right;
+}
+
+.sp-thread3-tag a {
+    color:black;
+}
+
+
+/* THREAD TEMPLATE 4 */
+
+.sp-thread4 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    padding:20px;
+}
+
+.sp-thread4-text {
+    color: #3a3a3a;
+    width: 555px;
+    font-family: 'Inter';
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 180%;
+    border: 1px solid var(--border3);
+    padding: 50px;
+    text-align:justify;
+    margin:10px;
+    padding-bottom:70px;
+}
+
+.sp-thread4-icon {
+    width:140px;
+    height:140px;
+    border-radius:100%;
+    padding:4px;
+    position:relative;
+    float:right;
+    top:25px;
+    border: 5px solid var(--bg1);
+    object-fit: cover;
+    object-position: center;
+}
+
+.sp-thread4-icon img {
+    width:140px;
+    height:140px;
+    margin:0;
+    margin-right:40px;
+    border-radius:100%;
+    filter:grayscale(70%);
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    right:20px;
+}
+
+.sp-thread4-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-thread4-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}
+
+.sp-thread4-tagbox {
+    width:100%;
+    text-align:left;
+    display:inline-block;
+    padding-top:50px;
+    margin-left:20px;
+}
+
+.sp-thread4-spacer {
+    height:10px;
+    display:inline-block;
+}
+
+.sp-thread4-taginfo {
+    text-align:right;
+    display:inline-block;
+    position:relative;
+    right:20px;
+    top:80px;
+}
+
+.sp-thread4-writtenfor {
+    width:fit-content;
+    text-transform:uppercase;
+    line-height:130%;
+    font-size: 8px;
+    text-align:right;
+    font-family: 'Cousine';
+    border-bottom: 1px solid var(--accent);
+    color: #717171;
+    padding-bottom: 2px;
+}
+
+.sp-thread4-tag {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #272727;
+    font-family: essonnes-display;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 900;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top: 10px;
+}
+
+.sp-thread4-tag a {
+    color:black;
+}
+
+
+/* THREAD TEMPLATE 5 */
+
+.sp-thread5 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    padding:20px;
+}
+
+.sp-thread5-text {
+    color: #3a3a3a;
+    width: 555px;
+    font-family: 'Inter';
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 180%;
+    border: 1px solid var(--border3);
+    padding: 50px 50px 0px 50px;
+    text-align:justify;
+    margin:10px;
+    padding-bottom:50px;
+}
+
+.sp-thread5-icon {
+    width:180px;
+    height:180px;
+    padding:4px;
+    position:relative;
+    float:right;
+    border: 5px solid var(--bg1);
+    object-fit: cover;
+    object-position: center;
+}
+
+.sp-thread5-icon img {
+    width:180px;
+    height:180px;
+    margin:0;
+    margin-right:40px;
+    filter:grayscale(70%);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    right:20px;
+}
+
+.sp-thread5-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-thread5-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}
+
+.sp-thread5-tagbox {
+    width:100%;
+    text-align:left;
+    display:inline-block;
+    padding-top:60px;
+    margin-left:20px;
+}
+
+.sp-thread5-spacer {
+    height:10px;
+    display:inline-block;
+}
+
+.sp-thread5-taginfo {
+    text-align:right;
+    display:inline-block;
+    position:relative;
+    right:20px;
+    top:80px;
+}
+
+.sp-thread5-writtenfor {
+    width:fit-content;
+    text-transform:uppercase;
+    line-height:130%;
+    font-size: 8px;
+    text-align:right;
+    font-family: 'Cousine';
+    border-bottom: 1px solid var(--accent);
+    color: #717171;
+    padding-bottom: 2px;
+}
+
+.sp-thread5-tag {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #272727;
+    font-family: essonnes-display;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 900;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top: 10px;
+}
+
+.sp-thread5-tag a {
+    color:black;
+}

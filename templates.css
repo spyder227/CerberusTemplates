@@ -713,3 +713,406 @@
     display:block;
     width:100%;
 }
+
+
+/* REQUEST TEMPLATE 1 */
+
+.sp-request1 {
+    width: 550px;
+    margin: 20px auto 20px;
+    gap: 10px;
+    border: 1px solid var(--border3);
+    background: var(--bg1);
+}
+
+.sp-request1-title {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    margin:40px 40px 0px 40px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #99999940;
+    text-transform: lowercase;
+    color: #313131;
+}
+
+.sp-request1-text {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 40px 40px;
+    white-space: pre-line;
+}
+
+.sp-request1-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-request1-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}
+
+.sp-request1-divider {
+    width:100%;
+    border-bottom: 1px solid var(--border3);
+}
+
+.sp-request1-table {
+    display: grid;
+    grid-template-columns: 80px 300px;
+    padding:20px 40px 20px 40px;
+}
+
+.sp-request1-table img {
+    width:120px;
+    height:120px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid var(--border3);
+    padding:5px;
+    border-radius:100%;
+}
+
+.sp-request1-char {
+    position:relative;
+    left:60px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.sp-request1-char b {
+    font-family: OFAK;
+    text-transform: uppercase;
+    font-size:24px;
+    color: #333333;
+    text-align:left;
+    letter-spacing: 0px;
+    display:block;
+}
+
+.sp-request1-char i {
+    font-family: 'Inter';
+    font-size: 10px;
+    text-transform:uppercase;
+    font-style:normal;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight: 700;
+    position:absolute;
+    color: #595959;
+    text-align:left;
+    display:block;
+}
+
+
+/* REQUEST TEMPLATE 2 */
+
+.sp-request2 {
+    width: 550px;
+    margin: 20px auto 20px;
+    gap: 10px;
+    border: 1px solid var(--border3);
+    background: var(--bg1);
+}
+
+.sp-request2-title {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    margin:40px 40px 0px 40px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #99999940;
+    text-transform: lowercase;
+    color: #313131;
+}
+
+.sp-request2-text {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 40px 40px;
+    white-space: pre-line;
+}
+
+.sp-request2-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-request2-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}
+
+.sp-request2-divider {
+    width:100%;
+    border-bottom: 1px solid var(--border3);
+}
+
+.sp-request2-body {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 20px 40px;
+    white-space: pre-line;
+}
+
+.sp-request2-body b {
+    font-family: OFAK;
+    text-transform: uppercase;
+    font-size:24px;
+    color: #333333;
+    text-align:left;
+    letter-spacing: 0px;
+    display:block;
+}
+
+.sp-request2-body i {
+    font-family: 'Inter';
+    font-size: 10px;
+    text-transform:uppercase;
+    font-style:normal;
+    margin-top:-5px;
+    padding-bottom:5px;
+    font-weight: 700;
+    position:absolute;
+    color: #595959;
+    text-align:left;
+    display:block;
+}
+
+.sp-request2-body-alt {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 20px 40px;
+    white-space: pre-line;
+}
+
+.sp-request2-body-alt b {
+    font-family: OFAK;
+    text-transform: uppercase;
+    font-size:24px;
+    color: #333333;
+    text-align:right;
+    letter-spacing: 0px;
+    display:block;
+}
+
+.sp-request2-body-alt i {
+    font-family: 'Inter';
+    font-size: 10px;
+    text-transform:uppercase;
+    font-style:normal;
+    margin-top:-5px;
+    padding-bottom:5px;
+    font-weight: 700;
+    color: #595959;
+    text-align:right;
+    display:block;
+}
+
+
+/* REQUEST TEMPLATE 3 */
+
+.sp-request3 {
+    width: 550px;
+    margin: 20px auto 20px;
+    gap: 10px;
+    border: 1px solid var(--border3);
+    background: var(--bg1);
+}
+
+.sp-request3-title {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    margin:40px 40px 0px 40px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #99999940;
+    text-transform: lowercase;
+    color: #313131;
+}
+
+.sp-request3-subtitle {
+    font-family: 'Inter';
+    font-size: 7px;
+    font-weight: 600;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+}
+
+.sp-request3-text {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 40px 40px;
+    white-space: pre-line;
+}
+
+.sp-request3-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-request3-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}
+
+.sp-request3-text img {
+    float:left;
+    width:140px;
+    height:140px;
+    padding:5px;
+    margin:20px 20px 20px 0px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid var(--border3);
+}
+
+/* REQUEST TEMPLATE 4 */
+
+.sp-request4-image {
+    width:150px;
+    height:150px;
+    border-radius:100%;
+    border:1px solid var(--border3);
+    position:relative;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    top:50px;
+}
+
+.sp-request4-image img {
+    width:150px;
+    height:150px;
+    border-radius:100%;
+    border:1px solid var(--border3);
+    padding:5px;
+    position:relative;
+}
+
+.sp-request4-body {
+    width: 550px;
+    margin: 20px auto 20px;
+    gap: 10px;
+    border: 1px solid var(--border3);
+    background: var(--bg1);
+}
+
+.sp-request4-title {
+    font-family: cormorant garamond;
+    font-size: 40px;
+    font-style: italic;
+    margin:40px 40px 0px 40px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #99999940;
+    text-transform: lowercase;
+    color: #313131;
+}
+
+.sp-request4-subtitle {
+    font-family: 'Inter';
+    font-size: 7px;
+    font-weight: 600;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+}
+
+.sp-request4-text {
+    font-family: inter;
+    font-size: 11px;
+    color: #515151;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 40px 40px 40px;
+    white-space: pre-line;
+}
+
+.sp-request4-text b {
+    background: var(--accent);
+    color: #c7c7c7;
+    padding: 5px;
+    padding-top: 6px;
+    font-family: STIX Two Text;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.sp-request4-text i {
+    font-family: meno-banner;
+    font-size: 13px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--accent);
+    color: black;
+}

@@ -674,7 +674,12 @@
     padding:10px;
     display:inline-block;
     border:1px solid var(--border3);
+    background: var(--accent);
+    line-height: 100%;
+    color: var(--bg1);
+    padding-top: 13px;
 }
+
 
 .sp-dev-songinfo {
     width:100%;
